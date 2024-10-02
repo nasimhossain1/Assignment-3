@@ -18,15 +18,83 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+                'bg-primary': '#FFFFFF',
               }
             }
           }
         }
       </script>
+      <!-- daisy Ui  -->
+      <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+      <script src="https://cdn.tailwindcss.com"></script>
+      
 </head>
 <body>
     <!-- header section-->
-    <header>
+    <header class="px-28 bg-gray-100">
+       <section class=" bg-gray-100">
+        <div class="navbar ">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                  <li class="font-bold"><a>Home</a></li>
+                  <li><a>Services</a></li>
+                  <li><a>Portfolio</a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>Contact Us</a></li>
+                </ul>
+              </div>
+              <a class="btn btn-ghost text-4xl font-bold"><i class="fa-solid fa-arrow-right rounded-full bg-yellow-300"></i> Rinterio</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li class="font-bold"><a>Home</a></li>
+                  <li><a>Services</a></li>
+                  <li><a>Portfolio</a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end gap-5">
+                
+                <i class="fa-solid fa-magnifying-glass rounded-full bg-white "></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                
+              
+                <a class="btn bg-yellow-300 font-bold">Book Consult <i class="fa-solid fa-arrow-right rounded-full bg-black text-white"></i></a>
+              
+            </div>
+          </div>
+       </section>
+
+       <!-- house section -->
+        <section class="px-28">
+            <div class="items-center px-72">
+                <img class="" src="assets/banner.png" alt="">
+            </div>
+            <!-- text side -->
+             <div class="text-center space-y-6">
+                <h1 class="text-5xl font-bold">A barn house of this design has a striking appearance</h1>
+                <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+                <a class="btn bg-yellow-200 font-bold">View Details <i class="fa-solid fa-arrow-right rounded-full bg-black text-white"></i></a>
+             </div>
+        </section>
 
     </header>
     <!-- main section -->
